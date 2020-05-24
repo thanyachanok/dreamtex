@@ -37,6 +37,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label121 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,12 +137,25 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label121
+            // 
+            this.label121.AutoSize = true;
+            this.label121.BackColor = System.Drawing.Color.Transparent;
+            this.label121.Font = new System.Drawing.Font("FC Muffin", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label121.ForeColor = System.Drawing.Color.MediumTurquoise;
+            this.label121.Location = new System.Drawing.Point(489, 53);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(177, 54);
+            this.label121.TabIndex = 112;
+            this.label121.Text = "รายได้คงเหลือ";
+            // 
             // Form9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::dreamtax.Properties.Resources.d6c1c1b4d54b0fc220678baec8a2b53b2;
             this.ClientSize = new System.Drawing.Size(1001, 551);
+            this.Controls.Add(this.label121);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
@@ -169,5 +183,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label121;
     }
 }
