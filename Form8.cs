@@ -100,5 +100,10 @@ namespace dreamtax
             Form7 four = new Form7();
             four.Show();
         }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

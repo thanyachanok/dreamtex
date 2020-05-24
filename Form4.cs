@@ -86,7 +86,7 @@ namespace dreamtax
             {
                 outcome58 = (pp58 * 20) / 100;
                 textBox3.Text = outcome58.ToString();
-                outcome4 = (outcome58 * 4) / 20;
+                outcome4 = (outcome58 * 20) / 100;
                 textBox1.Text = outcome4.ToString();
                 outcomefinal58 = (thome + outcome4);
                 textBox11.Text = outcomefinal58.ToString();
@@ -110,11 +110,11 @@ namespace dreamtax
             }
             else if (pp > 5000000)
             {
-                z = 0;
+                z = 200000;
             }
             else if (pp < 200000)
             {
-                z = 0;
+                z = pp;
             }
             outcome62 = z;
             textBox5.Text = outcome62.ToString();
